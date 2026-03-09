@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<Html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jaspreet">
+    <meta name="description" content="Dashboard assignment">
+    <link rel="icon" href="assets/media/favicon.png" type="image/x-icon">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/style/style.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Dashboard</h1>
+
+    <nav class="nav">
+      <a href="#">Dashboard</a>
+      <a href="#">Home</a>
+      <a href="#">Profile</a>
+      <a href="#">Settings</a>
+      <a href="#">Logout</a>
+    </nav>
+
+    <form class="search-form">
+      <input type="search" placeholder="Search">
+      <span class="search-icon"></span>
+    </form>
+  </header>
+
+  <main class="container">
+    <table class="dashboard-table">
+      <thead>
+        <tr>
+          <th>Data Type</th>
+          <th>Total</th>
+          <th>Last 7 Days</th>
+          <th>Latest Record</th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            <span class="icon icon-blue">U</span>
+            Registered Users
+          </td>
+          <td>138</td>
+          <td>9</td>
+          <td>May 7</td>
+          <td><button class="btn-action">Show more</button></td>
+        </tr>
+
+        <tr>
+          <td>
+            <span class="icon icon-pink">A</span>
+            Published Articles
+          </td>
+          <td>79</td>
+          <td>3</td>
+          <td>May 13</td>
+          <td><button class="btn-action">Show more</button></td>
+        </tr>
+
+        <tr>
+          <td>
+            <span class="icon icon-green">C</span>
+            Authors
+          </td>
+          <td>21</td>
+          <td>1</td>
+          <td>Apr 12</td>
+          <td><button class="btn-action">Show more</button></td>
+        </tr>
+
+        <tr>
+          <td>
+            <span class="icon icon-purple">M</span>
+            Messages
+          </td>
+          <td>12</td>
+          <td>2</td>
+          <td>May 21</td>
+          <td><button class="btn-action">Show more</button></td>
+        </tr>
+
+        <tr>
+          <td>
+            <span class="icon icon-yellow">V</span>
+            Visits
+          </td>
+          <td>895</td>
+          <td>46</td>
+          <td>May 22</td>
+          <td><button class="btn-action">Show more</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
